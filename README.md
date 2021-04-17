@@ -1,14 +1,10 @@
 # Project Title
 
-Template to have an up and running project using HTML5 CSS3 JavaScript and SASS
+JavaScript 30 challenges | day #1 | JS clock
 
 ## Getting Started
 
-These instructions will get you a copy of the template.
-
-Remember to delete the existing README.md file and rename and update the README-template.md file.
-
-You need to have installed SASS in your local machine to be able to compile the scss file in css.
+If you want to edit this repo, you need to have installed SASS in your local machine to be able to compile the scss file in css.
 
 If you don't need to use SASS, delete the 'scss' folder and edit the 'style.css' file directly.
 
@@ -30,14 +26,14 @@ sass --watch scss/style.scss:css/style.css
 
 ## Built With
 
-* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Markup language
-* [CSS3](https://www.w3schools.com/css/) - Style sheet language
-* [SASS](https://sass-lang.com/) - CSS preprocessor
-* [JavaScript](https://www.javascript.com/) - Programming language
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Markup language
+- [CSS3](https://www.w3schools.com/css/) - Style sheet language
+- [SASS](https://sass-lang.com/) - CSS preprocessor
+- [JavaScript](https://www.javascript.com/) - Programming language
 
 ## Authors
 
-* **Alessandro Corra** - *Initial work* - [alecorra](https://github.com/alecorra)
+- **Alessandro Corra** - _Initial work_ - [alecorra](https://github.com/alecorra)
 
 ## License
 
@@ -45,6 +41,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+- [Wes Bos](https://twitter.com/wesbos) to have created the [JavaScript30](https://javascript30.com/) coding challenge

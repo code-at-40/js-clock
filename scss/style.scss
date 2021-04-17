@@ -1,3 +1,7 @@
+$width: 800px;
+$height: 600px;
+$radius: 240px;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,4 +12,42 @@ body {
     'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  // background-color: #000000;
+}
+
+.header {
+  text-align: center;
+
+  &__title {
+    font-size: 2rem;
+    display: inline-block;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+}
+
+.container {
+  text-align: center;
+
+  &__clock {
+    width: $width;
+    height: $height;
+    background-color: #eaeaea;
+    border-radius: 20px;
+
+    &-circle {
+      cx: $width / 2;
+      cy: $height / 2;
+      r: $radius;
+      stroke: #000000;
+      stroke-width: 5;
+      fill: #ffffff;
+    }
+
+    &-seconds {
+      stroke: #000000;
+      stroke-width: 2;
+    }
+  }
 }

@@ -33,15 +33,15 @@ const degreeToRadians = (degree) => {
 const moveLine = (lineTime, line, lineLength) => {
   const angleDegreesSecondsMinutes = 360 / 60;
   const angleDegreesHours = 360 / 12;
-  let nowAngle = 0;
+  let angleNow = 0;
 
   if (line.id === 'hours') {
-    nowAngle = lineTime * angleDegreesHours;
+    angleNow = lineTime * angleDegreesHours;
   } else {
-    nowAngle = lineTime * angleDegreesSecondsMinutes;
+    angleNow = lineTime * angleDegreesSecondsMinutes;
   }
 
-  const radians = degreeToRadians(90 - nowAngle);
+  const radians = degreeToRadians(90 - angleNow);
 
   const newX1 = clockCenterX + Math.round(lineLength * Math.cos(radians));
   const newY1 = clockCenterY - lineLength + Math.round(lineLength - lineLength * Math.sin(radians));

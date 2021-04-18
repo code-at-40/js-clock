@@ -1,6 +1,5 @@
 $width: 800px;
 $height: 600px;
-$radius: 240px;
 
 * {
   box-sizing: border-box;
@@ -12,7 +11,6 @@ body {
     'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // background-color: #000000;
 }
 
 .header {
@@ -37,17 +35,26 @@ body {
     border-radius: 20px;
 
     &-circle {
-      cx: $width / 2;
-      cy: $height / 2;
-      r: $radius;
       stroke: #000000;
       stroke-width: 5;
       fill: #ffffff;
     }
 
-    &-seconds {
+    &-seconds,
+    &-minutes,
+    &-hours {
       stroke: #000000;
+      stroke-linecap: round;
+    }
+
+    &-seconds {
+      stroke: #ff3f00;
       stroke-width: 2;
+    }
+
+    &-minutes,
+    &-hours {
+      stroke-width: 5;
     }
   }
 }

@@ -35,7 +35,6 @@ body {
   fill: #ffffff;
 }
 .container__clock-seconds, .container__clock-minutes, .container__clock-hours {
-  stroke: #000000;
   stroke-linecap: round;
 }
 .container__clock-seconds {
@@ -43,6 +42,7 @@ body {
   stroke-width: 2;
 }
 .container__clock-minutes, .container__clock-hours {
+  stroke: #000000;
   stroke-width: 5;
 }
 

@@ -43,7 +43,6 @@ body {
     &-seconds,
     &-minutes,
     &-hours {
-      stroke: #000000;
       stroke-linecap: round;
     }
 
@@ -54,6 +53,7 @@ body {
 
     &-minutes,
     &-hours {
+      stroke: #000000;
       stroke-width: 5;
     }
   }

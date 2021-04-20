@@ -1,6 +1,6 @@
 # JS Clock
 
-JavaScript 30 challenges | day #1 | JS clock
+JavaScript 30 challenges | day #2 | JS clock
 
 Logic done in JS, no CSS transitions and transformations.
 

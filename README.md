@@ -4,7 +4,7 @@ JavaScript 30 challenges | day #2 | JS clock
 
 Logic done in JS, no CSS transitions and transformations.
 
-See how it works [here](https://codepen.io/alecorra/pen/BapOyZb).
+See how it works [here](https://codepen.io/codeat40/pen/BapOyZb).
 
 ## Getting Started
 

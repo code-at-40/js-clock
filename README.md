@@ -1,4 +1,4 @@
-# Project Title
+# JS Clock
 
 JavaScript 30 challenges | day #1 | JS clock
 
